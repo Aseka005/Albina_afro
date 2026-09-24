@@ -49,7 +49,7 @@ export default function App() {
             </motion.p>
             <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.9, delay: 0.4 }}
               className="mt-6 max-w-xl text-[15px] md:text-base leading-relaxed text-muted">
-              Афро косы любых видов, афро кудри, дреды и стрижки. Идеально ровные проборы, аккуратное плетение и образ, созданный именно под вас.
+              Афро косы любых видов, афро кудри, дреды и наращивание волос. Аккуратное плетение и образ, созданный именно под вас.
             </motion.p>
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.55 }}
               className="mt-10 flex flex-wrap gap-4">
@@ -90,7 +90,7 @@ export default function App() {
       <div className="border-y border-gold/15 bg-cocoa py-5 overflow-hidden">
         <div className="marquee flex w-max gap-10 whitespace-nowrap font-display italic text-2xl md:text-3xl text-sand/70">
           {Array.from({ length: 2 }).flatMap((_, k) =>
-            ['Афро косы', 'Афро кудри', 'Дреды', 'Стрижки', 'Брейды', 'Обучение Braid Master'].map((t) => (
+            ['Афро косы', 'Афро кудри', 'Дреды', 'Наращивание', 'Брейды', 'Обучение Braid Master'].map((t) => (
               <span key={k + t} className="flex items-center gap-10">{t}<span className="text-gold not-italic text-lg">✦</span></span>
             ))
           )}
@@ -119,7 +119,7 @@ export default function App() {
               </h2>
               <BraidLine className="mt-6 w-48 text-gold" />
               <p className="mt-8 text-[16px] md:text-[17px] leading-relaxed text-bark/85">
-                Делаю любые виды афро кос индивидуально под каждого клиента, а также афро кудри, дреды и стрижки — как женские, так и мужские.
+                Делаю любые виды афро кос индивидуально под каждого клиента, а также афро кудри, дреды и наращивание.
                 Главное в моей работе — <b className="text-ink">точность и красота плетения</b>.
               </p>
             </Reveal>
